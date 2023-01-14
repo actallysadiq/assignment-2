@@ -1,0 +1,141 @@
+@media only screen and (max-width:576px) {
+    .banner{
+        background-color:#faebd7;
+        margin-top: 0px;
+    }
+    
+    .nav li,.nav a{
+        list-style: none;
+        text-decoration: none;
+    }
+    .nav h2,.header-info h2{
+        font-size: 35px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .nav ul{
+        display:flex; 
+        gap: 20px;
+        margin: 0px 50px;
+    }
+.header-info p{
+    font-size: 15px;
+    text-align: center;
+}
+.btn-1{
+    background-color: coral;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 155px;
+    margin-bottom: 20px;
+}
+.header-info img{
+    width: 370px;
+    padding: 10px;
+}
+.sec1-div1 img{
+    width: 190px;
+    margin-top: 30px;   
+}
+.sec1-div1{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+}
+.sec1-div2 h2{
+font-size: 35px;
+text-align: center;
+font-weight: 800;}
+.sec1-div2 p{font-size: 15px;
+text-align: center;}
+.section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.sec2-h2{
+    font-size: 30px;
+    margin: 20px;
+    justify-content: left;
+    border-left: 3px solid coral;
+    padding: 5px;   
+}
+.sec2-p{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.sec2-sub-div{
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #ebebeb;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+section img{
+    width: 400px;
+}
+.btn-3{font-size: 20px;
+    color: white;
+    background-color: coral;
+    border: 0px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 140px;
+}
+.sec3-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.sec3-sub-div:hover {
+    background-color: coral;
+    border: 2px solid rgb(248, 188, 184);
+}
+.sec3-sub-div img{
+    width: 90px;
+}
+.sec3-sub-div{
+    border: 2px solid coral;
+    text-align: center;
+    padding: 10px;
+}
+.sec4-div img{
+    width: 100px; 
+}
+.sec4-div{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 20px;
+   padding: 20px;
+}
+.sec5-div{
+    background-color: #faebd7;
+    border-radius: 3px;
+    margin: 40px;
+    padding: 40px;
+    display: flex;  
+}
+.input{
+    background-color: rgb(255, 137, 94);
+    border: 0px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+}
+.btn-4{
+    border: 0px;
+    padding: 5px;
+    color: white;
+    background-color: #a3a3a3;
+    border-radius: 2px;
+}
+.footer{
+    background-color: #faebd7;
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+}
