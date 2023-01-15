@@ -36,6 +36,7 @@
    }
 .header-info h2{
     margin: 0px 500px;
+
    }
 .header-info p{
     color: #7e7e7e;
@@ -226,11 +227,18 @@ margin-left: 170px;
         list-style: none;
         text-decoration: none;
     }
-.nav h2,.header-info h2{
+.nav h2{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-h2{
         font-size: 35px;
         font-weight: 800;
         text-align: center;
         margin-top: 20px;
+        margin: 0px;
     }
  .nav ul{
     display:flex; 
