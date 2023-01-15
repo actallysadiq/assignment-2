@@ -253,6 +253,10 @@ flex-direction: column;
 width: 450px;
 padding: 10px;
 }
+.btn-3{
+    margin-top: 440px;
+    margin-left: 120px;
+}
 .sec3-div{
     flex-direction: column;
     gap: 30px;
